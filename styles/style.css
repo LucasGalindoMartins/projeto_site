@@ -20,8 +20,32 @@ main
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.384);
 }
 
+h1
+{
+    font-size: 48px;
+    color: rgb(87, 1, 87);
+    text-align: center;
+}
+
 h2
 {
     font-size: 32px;
     color: blueviolet;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: rgb(144, 74, 209);
+}
+
+.right
+{
+    float: right;
 }
